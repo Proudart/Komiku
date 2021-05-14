@@ -1,145 +1,156 @@
 /*fonts*/
 
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@900&display=swap" rel="stylesheet');
-
 body {
-  font-family: 'Nunito', sans-serif !important;
+    font-family: "Nunito", sans-serif !important;
 }
 
 
 /*main*/
 
 .mainpageanime {
-  padding-top: 5vh;
-  margin-left: 7%;
-  margin-right: 7%;
+    padding-top: 5vh;
+    margin-left: 7%;
+    margin-right: 7%;
 }
+
 
 /*new update*/
 
 .imagecontainer {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  width: 100%;
-  scroll-snap-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    scroll-snap-align: center;
 }
 
 .carousel-container {
-  width: 1200px;
-  margin: 50px auto;
-  min-height: 200px;
-  position: relative;
-}
-@media screen and (max-width: 768px) {
-  .carousel-container {
-    width: 80%;
-  }
-}
-@media screen and (max-width: 1024px) {
-  .carousel-container {
-    width: 85%;
-  }
-}
-.carousel-container .carousel-inner {
-  overflow: hidden;
-}
-.carousel-container .track {
-  display: inline-flex;
-  transition: transform 0.5s;
-}
-.carousel-container .card-container {
-  width: 240px;
-  height: 400px;
-  padding-right: 15px;
-}
-.carousel-container .card-container .card {
-  width: 100%;
-  box-sizing: border-box;
-  display: flex;
-  flex-direction: column;
-  border: none;
+    width: 1200px;
+    margin: 50px auto;
+    min-height: 200px;
+    position: relative;
 }
 
-.card .img {  
-  display: flex;
-  position: relative;
-  max-height: 320px;
-  justify-content: center;
-  font-size: 30px;
+@media screen and (max-width: 768px) {
+    .carousel-container {
+        width: 80%;
+    }
 }
+
+@media screen and (max-width: 1024px) {
+    .carousel-container {
+        width: 85%;
+    }
+}
+
+.carousel-container .carousel-inner {
+    overflow: hidden;
+}
+
+.carousel-container .track {
+    display: inline-flex;
+    transition: transform 0.5s;
+}
+
+.carousel-container .card-container {
+    width: 240px;
+    height: 400px;
+    padding-right: 15px;
+}
+
+.carousel-container .card-container .card {
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    border: none;
+}
+
+.card .img {
+    display: flex;
+    position: relative;
+    max-height: 320px;
+    justify-content: center;
+    font-size: 30px;
+}
+
 .card .info {
-  flex-basis: 40px;
-  background:rgb(0, 0, 0, 0.5);
-  color: white;
-  flex-grow: 0;
-  padding: 10px;
-  box-sizing: border-box;
-  min-height: 60px;
-  text-decoration: none;
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  transition: transform 0.5s;
+    flex-basis: 40px;
+    background: rgb(0, 0, 0, 0.5);
+    color: white;
+    flex-grow: 0;
+    padding: 10px;
+    box-sizing: border-box;
+    min-height: 60px;
+    text-decoration: none;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    transition: transform 0.5s;
 }
+
 .card .info:hover {
-  flex-basis: 40px;
-  background:rgb(0, 0, 0, 0.5);
-  color: white;
-  flex-grow: 0;
-  padding: 10px;
-  box-sizing: border-box;
-  min-height: 50px;
-  transition: transform 0.5s;
+    flex-basis: 40px;
+    background: rgb(0, 0, 0, 0.5);
+    color: white;
+    flex-grow: 0;
+    padding: 10px;
+    box-sizing: border-box;
+    min-height: 50px;
+    transition: transform 0.5s;
 }
 
 #mangalink {
-  text-decoration: none;
-}
-.tittle {
-  display: flex;
-  justify-content: left;
-  font-size: 50px;
+    text-decoration: none;
 }
 
+.tittle {
+    display: flex;
+    justify-content: left;
+    font-size: 50px;
+}
 
 .nav .prev {
-  left: -50px;
-  display: none;
+    left: -50px;
+    display: none;
 }
+
 .nav .prev.show {
-  display: block;
+    display: block;
 }
+
 .nav .next {
-  right: -50px;
+    right: -50px;
 }
+
 .nav .next.hide {
-  display: none;
+    display: none;
 }
 
-.next{
-  color: white;
+.next {
+    color: white;
 }
 
-.prev{
-  color: white;
+.prev {
+    color: white;
 }
 
-.card > * {
-  flex: 2;
+.card>* {
+    flex: 2;
 }
 
 .nav button {
-  width: 60px;
-  height: 60px;
-  border-radius: 50%;
-  border: 1px solid #aaa;
-  position: absolute;
-  top: 50%;
-  transform: translateY(-100%);
-  cursor: pointer;
-  background-color: transparent;
-  border: none;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 1px solid #aaa;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-100%);
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
 }
