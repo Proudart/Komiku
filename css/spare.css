@@ -1,0 +1,69 @@
+.coverpage {
+    list-style-type: none;
+    width: 100%;
+    height: 80vh;
+    flex-wrap: wrap;
+  } 
+  
+  .coverspace {
+    float: left;
+    background-size: 100%;
+    background-position: center;
+    padding-top: 3%;
+  }
+  
+  .coversize {
+    position: relative;
+    width: 20vw;
+    height: 60vh;
+    float: left;
+    padding-left: 10%;
+    margin-bottom: 4px;
+    background-size: 100%;
+    background-position: center;
+    transition: 0.5s;
+    overflow: hidden;
+    border-radius: 4px;
+    box-shadow: 0 0 4px #000;
+    box-sizing: border-box;
+  }
+  
+  .coversize:hover {
+    width: 21vw;
+    height: 62vh;
+    transition: all 0.3s ease-in;
+  }
+  
+  .container:hover div.text {
+    display: block;
+  }
+  
+  .text {
+    float: left;
+    display: none;
+  }
+  
+  .coverinfo {
+    height: 66vh;
+    width: 22vw;
+    font-size: auto;
+    margin-left: 8vw;
+    margin-right: 5vw;
+    box-sizing: border-box;
+  }
+  
+  .coverspace:hover div.homeinfo {
+    display: none;
+    float: left;
+    box-sizing: border-box;
+  }
+  
+  .homeinfo {
+    display: block;
+  }
+  
+  .homeinfo {
+    height: 66vh;
+    width: 22vw;
+    font-size: auto;
+  }
